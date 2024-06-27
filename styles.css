@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: green;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.chart {
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+canvas {
+    max-width: 100%;
+}

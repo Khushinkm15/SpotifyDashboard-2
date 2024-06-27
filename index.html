@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Spotify Dashboard</h1>
+    <div class="dashboard">
+        <div class="metric">
+            <h2>Number of Artists</h2>
+            <p id="numArtists"></p>
+        </div>
+        <div class="metric">
+            <h2>Number of Songs</h2>
+            <p id="numSongs"></p>
+        </div>
+        <div class="metric">
+            <h2>Average Valence</h2>
+            <p id="avgValence"></p>
+        </div>
+        <div class="metric">
+            <h2>Average Tempo</h2>
+            <p id="avgTempo"></p>
+        </div>
+        <div class="metric">
+            <h2>Average Mode</h2>
+            <p id="avgMode"></p>
+        </div>
+        <div class="metric">
+            <h2>Maximum Popularity</h2>
+            <p id="maxPopularity"></p>
+        </div>
+        <div class="chart">
+            <h2>Top 10 Most Popular Tracks</h2>
+            <canvas id="topPopularTracks"></canvas>
+        </div>
+        <div class="chart">
+            <h2>Top 10 Tracks with Maximum Tempo</h2>
+            <canvas id="topTempoTracks"></canvas>
+        </div>
+        <div class="chart">
+            <h2>Top 10 Most Danceable Tracks</h2>
+            <canvas id="topDanceableTracks"></canvas>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
